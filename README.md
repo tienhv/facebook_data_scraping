@@ -25,7 +25,8 @@ scrapy crawl photo_crawler -a email=<email> -a password=<password> -a target_use
 __Parameters:__
 * `email`: login email to your Facebook account.
 * `password`: login password to your Facebook account.
-* `target_username`: Facebook profile ID which you want to crawl all images from
+* `target_username`: Facebook profile ID which you want to crawl all images from. Using your browser and go to your friend's profile page, the profile ID is the string after the split character '/'.
+  * For example https://www.facebook.com/johnson, the ID will be `johnson`.
 
 All images will be downloaded into folder `downloaded-photos`. The image filename will have 2 parts: 1st part contains the `target_username`, 2nd part is the random file name.
 
