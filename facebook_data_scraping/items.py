@@ -7,8 +7,12 @@
 
 import scrapy
 
+class FacebookPhoto(scrapy.Item):
+    username = scrapy.Field()
+    image_url = scrapy.Field()
+    pass
+
 
 class FacebookDataScrapingItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+    image_url = scrapy.Field()
     pass
