@@ -22,12 +22,12 @@ $ cd facebook_data_scraping
 ```
 scrapy crawl photo_crawler -a email=<email> -a password=<password> -a target_username=<profile_username>
 ```
-You will need to replace these parameters with your own:
+** Parameters: **
 * `email`: login email to your Facebook account.
 * `password`: login password to your Facebook account.
 * `target_username`: Facebook profile ID which you want to crawl all images from
 
-All images will be downloaded into folder `downloaded-photos`. The image filename will have 2 parts: 1st part contains the `target_username`, 2nd part is the random file name. 
+All images will be downloaded into folder `downloaded-photos`. The image filename will have 2 parts: 1st part contains the `target_username`, 2nd part is the random file name.
 
 *Notes: I've configured `THROTTLE` and `USER-AGENT` parameters in the settings.py. It makes the query more reasonable with less "robot" browsing speed  and more legit user agent. Feel free to adjust it to your needs.*
 
