@@ -4,7 +4,7 @@
 
 This is a side project that was quickly developed while I'm working on my Face Recognition project. The Face Recognition project requires a lot of face images for the training and testing purposes. And I was too lazy to save each image from Facebook to my computer so I created this tool to help me with the automatic crawling.
 
-Since it's a quick project (~2 hours development time), there might be inevitable bugs or issues. If you found one, or fixed one, please feel free to create a Pull request, and I will look into it. Much appreciate your contribution.
+Since it's a quick project (~2 hours development time), there might be inevitable bugs or issues. And because Facebook UI always keep changing so my code might stop working at some point. If you found a bug, or fixed one, please feel free to create a Pull request, and I will look into it. Much appreciate your contribution.
 
 ## Prerequisites
 These are the open-source libraries or framework utilized in the project, which **requires installation before hand**:
