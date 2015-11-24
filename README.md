@@ -6,9 +6,12 @@ This is a side project that was quickly developed while I'm working on my Face R
 
 Since it's a quick project (~2 hours development time), there might be inevitable bugs or issues. If you found one, or fixed one, please feel free to create a Pull request, and I will look into it. Much appreciate your contribution.
 
+## Prerequisites
 These are the open-source libraries or framework utilized in the project, which **requires installation before hand**:
 * [Scrapy framework](http://scrapy.org/): a very powerful web data scraping tool and framework for Python developers. Installation using PIP: `pip install scrapy`
 * [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/): a great HTML text entities parsing & formatting library. Installation: `pip install beautifulsoup4`
+* Image module: `pip install image`
+* Twisted module: `pip install twisted`
 
 ## Usage
 
